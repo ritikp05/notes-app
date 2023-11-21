@@ -35,7 +35,7 @@ const Topbar = () => {
 
       
 
-    toast.error('please fill both input Feilds', {
+    toast.error('Please Fill All Fields', {
       position: "top-center",
       autoClose: 1500,
       hideProgressBar: false,
