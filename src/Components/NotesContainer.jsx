@@ -9,7 +9,7 @@ const NotesContainer = () => {
       
     {
       note.length>0 ? note.filter((alldata)=>
-alldata.title.includes(search.toLowerCase())
+alldata.title.toLowerCase().includes(search.toLowerCase())
       ).map((item) => {
         console.log(item.id);
           return <Note item={item} key={item.id} id={item.id}/>
