@@ -1,0 +1,25 @@
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-around;
+
+    .subtitle {
+        margin-top: 18%;
+        color: rgb(177, 172, 172);
+        font-size: 2rem;
+        font-family: cursive;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:527px) {
+
+    .note-container {
+
+        .subtitle {
+            font-size: 1.3rem;
+            margin-top: 32%;
+        }
+    }
+}

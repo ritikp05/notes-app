@@ -1,0 +1,49 @@
+.goback-button{
+    transform: scale(2);
+position: relative;
+top: 40px;
+left: 30px;
+color: skyblue;
+background-color:rgb(73, 73, 244);
+color: white;
+padding: 2px 6px;
+&:hover{
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+}
+
+}
+
+.viewnote-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 120px;
+    align-items: center;
+    gap: 10px;
+   
+& section{
+box-shadow: 2px 2px 8px rgb(123, 109, 109);
+padding: 20px;
+width: 80%;
+min-height: 20vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+.viewnote-title {
+        // background-color: red;
+        font-size: 1.4rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+    }
+    .viewnote-desc {
+        font-size: large;
+        font-family: cursive;
+        word-break: break-word;
+    }
+}
+}

@@ -1,0 +1,83 @@
+.note {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    padding: 18px 12px;
+    box-shadow: 3px 3px 10px gray;
+    width: 250px;
+    height: 15%;
+    text-align: start;
+    border-radius: 10px;
+
+    & .note-title {
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    & .note-desription {
+        font-size: 1.2rem;
+        font-family: cursive;
+    }
+
+
+    & section {
+        display: flex;
+        justify-content: right;
+        margin-right: 1px;
+        margin-top: 15px;
+        gap: 8px;
+        padding-bottom: 2px;
+
+
+        & .btn1 {
+            font-size: 1.8rem;
+          
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        & .btn2 {
+            font-size: 1.8rem;
+            color: black;
+
+            &:hover {
+                color: rgb(8, 12, 246);
+                cursor: pointer;
+            }
+        }
+
+        & .btn3 {
+            font-size: 1.8rem;
+
+            &:hover {
+                color: red;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width:434px) {
+    .note {
+        width: 170px;
+        height: 80px;
+
+        & .note-title {
+            font-weight: 600;
+            letter-spacing: 0.6px;
+            font-size: 1.2rem;
+        }
+
+        & .note-desription {
+            font-size: 1rem;
+        }
+
+    }
+}

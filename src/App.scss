@@ -1,0 +1,17 @@
+@import './Scss/navbar.scss';
+@import './Scss/Topbar.scss';
+@import './Scss/note.scss';
+@import './Scss/notecontainer.scss';
+@import './Scss/updatenote.scss';
+@import './Scss/viewnote.scss';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  // z-index: -1;
+}
