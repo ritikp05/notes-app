@@ -12,7 +12,7 @@ const Note = ({ item, id }) => {
     dispatch(onDelete(id))
     
     toast.success('Note deleted sucessfully', {
-      position: "bottom-center",
+      position: "top-right",
       autoClose: 1500,
       hideProgressBar: false,
       closeOnClick: true,
